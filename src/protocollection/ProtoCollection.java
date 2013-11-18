@@ -39,11 +39,11 @@ public class ProtoCollection {
       B b3 = new B(1, "b31" , "b32", "b33", 1);
       B b4 = new B(2, "b41" , "b42", "b43", 1);
       Iterator iter2;
-      List<B> bins2 = new ArrayList<B>();
-      bins2.add(b3);
-      bins2.add(b4);
+//      List<B> bins2 = new ArrayList<B>();
+      bins1.add(b3);
+      bins1.add(b4);
       
-      a.setMyBs(bins2);
+      a.setMyBs(bins1);
      
       System.out.println("A instance with Bs done ");       
       //System.out.print("Collection data: "); 
